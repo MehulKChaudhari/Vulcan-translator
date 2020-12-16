@@ -1,8 +1,96 @@
+
+:root {
+    --primary: #9a39f5;
+}
 #top{
     background-color: rgb(83, 5, 83);
     color: rgb(226, 228, 124);
     height: 10vh;
+    background-color: var(--primary);
     text-align: center;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    height: 70px;
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+body {
+    margin: 0;
+    font-family: Lucida Bright;
+    color: #333333;
+    background-image: url(download.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+#input{
+    background-color: rgb(230, 14, 14);
+    background-size: relative;
+    display: inline;
+    text-align: center;
+}
+#opt{
+    background-color: rgb(230, 14, 14);
+    background-size: relative;
+    display: inline;
+    text-align: center;
+}
+
+
+textarea{
+    border: 2px solid;
+    width: 50%;
+    display: block;
+    margin: 1rem;
+    padding: 4rem;
+    position: center;
+}
+#output{
+    box-sizing: border-box;
+    border: 3px solid black;
+    height: 20vh;
+    width: 50%;
+    overflow: scroll;
+    background-color: rgb(215, 252, 184);
+    margin-left: 300px;
+   
+}
+
+#btn-translate{
+        background-color: var(--primary);
+        border: 1rem;
+        border-radius: 5px;
+        margin: 1rem 0rem;
+        padding: 1rem 2rem;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: large;
+        cursor: pointer;
+        text-shadow: none;
+        display: inline-block;
+        text-align: center;
+        align-items: flex-start;
+        
+}
+#spock-img{
+    float: left ;
+}
+#spock2{
+    width: 300px;
+    height: auto;
+    float: right;
+    margin-right:150px ;
+   
+}
+
+footer {
+    color: rgb(226, 228, 124);
+    height: 15vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
 }
